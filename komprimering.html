@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <title>Komprimering</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body_komprimering">
+  <div id="hoved_komprimering">
+    <h1>Komprimering</h1>
+    <p>En måte å lagre et bilde på som gjør at det tar mindre plass enn ellers, er komprimering. Dette benyttes for punktgrafikk. </p>
+    <p>Hensikten med komprimering er at mindre informasjon skal lagres og dermed at det tar kortere tid å laste opp et bilde. Bildet representeres likevel likt, men forskjellen er at nettsiden får en bedre brukervennlighet. Dette gjelder spesielt for personer med dårlig nettverk og mobilbrukere. De vil oppleve kortere ventetid enn ellers. </p>
+    <p>En form for komprimering er «Run-length Encoding». Ved den typen komprimering lagres ikke alle punktene i et bilde hver for seg, istedenfor samles de innenfor samme farge på en rad i en gruppe. Er det for eksempel 2 rosa og 5 blå punkter i et bilde, vil det skrives som 2r 5b og ikke som r r b b b b b. Under ser du et eksempelbilde og forskjellen på hvordan det lagres med og uten komprimering </p>
+    </div>
+   <div id="img_komprimering">
+      <div id="eksempelbilde_komprimering">
+       <img src="/Bilder/eksempel_komprimering1.png" alt="Bilde som representerer måten eksempelbildet skal se ut som på nettsiden">
+       <h4>Eksempelbilde </h4>
+      </div>
+      <div id="uten_komprimering">
+        <img src="/Bilder/eksempel_komprimering2.png" alt="Bilde som presenterer hvordan eksempelbildet lagres uten komprimering">
+        <h4>Uten komprimering</h4>
+      </div>
+      <div id="med_komprimering">
+        <img src="/Bilder/eksempel_komprimering3.png" alt="Bilde som presenterer hvordan eksempelbildet lagres med den beskrivne komprimeringsmetoden">
+        <h4>Med komprimering</h4>
+      </div>
+   
+    </div>
+    
+  
+  </body>
